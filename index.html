@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML-Only Website</title>
+    <title>HTML-Only Website<title>
     <meta property="og:title" content="HTML-Only Website">
     <meta property="og:type" content="website">
     <meta property="og:image" content="">
@@ -13,7 +13,7 @@
 <body>
     <header>
         <section id="navbar">
-            <img href="" alt="">
+            <img id="pfp" href="" alt="">
             <div id="name">Your Name</div>
             <nav id="nav">
                 <a href="">Home</a> /
@@ -23,15 +23,15 @@
             </nav>
         </section>
 
-        <section class="center">
+        <section id="title">
             <h1 id="position">Frontend Developer</h1>
             <p id="description">html only with proper layout, no styling</p>
         </section>
     </header>
 
     <main>
-        <section class="column">
-            <h1 class="title">Projects</h1>
+        <section id="left" class="column">
+            <h1 class="heading">Projects</h1>
             <p class="project">HTML Only Protfolio</p>
             <p class="project">Calculator</p>
             <p class="project">Quiz App</p>
@@ -39,63 +39,63 @@
             <p class="project">Product Upcoming Page</p>
         </section>
         
-        <section class="column" id="middle">
+        <section id="middle" class="column">
             <section class="article">
-                <h1 class="title">Work Experience</h1>
+                <h1 class="heading">Work Experience</h1>
                 <h2>roadmap.sh</h2>
                 <p>Solved all the frontend projects</p>
                 <p><a href="" target="_blank">Visit my Profile</a></p>
             </section>
             <div id="border"></div>
             <section class="article">
-                <h1 class="title">OpenSource Work</h1>
+                <h1 class="heading">OpenSource Work</h1>
                 <p>Contributed to several opensource projects. Made my own projects with 200 GitHub Stars.</p>
                 <p><a href="" target="_blank">Visit my GitHub Profile</a></p>
             </section>
         </section>
             
-            <section class="column">
-                <h1 class="title">Education</h1>
+            <section id="right" class="column">
+                <h1 class="heading">Education</h1>
                 <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon Organized 30 sessions.</p>
                 <p>Courses I took:</p>
-                <ul>
-                    <li>Object Oriented Programming</li>
-                    <li>Data Structures and Algorithms</li>
-                    <li>Web Engineering</li>
-                    <li>Artificial Intelligence</li>
-                    <li>Human Computer Interaction</li>
-                    <li>Computer Graphics</li>
-                    <li>Database Management Systems</li>
-                    <li>Distributed Database Systems</li>
-                    <li>Discreet Mathematics</li>
+                <ul id="courses">
+                    <li class="course">Object Oriented Programming</li>
+                    <li class="course">Data Structures and Algorithms</li>
+                    <li class="course">Web Engineering</li>
+                    <li class="course">Artificial Intelligence</li>
+                    <li class="course">Human Computer Interaction</li>
+                    <li class="course">Computer Graphics</li>
+                    <li class="course">Database Management Systems</li>
+                    <li class="course">Distributed Database Systems</li>
+                    <li class="course">Discreet Mathematics</li>
                 </ul>
         </section>
     </main>
 
     <footer>
-        <h1>Reviews from my Teachers</h1>
+        <h1 class="heading">Reviews from my Teachers</h1>
 
         <section class="reviews">
-            <article class="review">
-                <h1>Jane Doe was a brilliant student; always stood out with her assignments.</h1>
+            <article class="bubble">
+                <h1 class="review">Jane Doe was a brilliant student; always stood out with her assignments.</h1>
                 <p class="teacher">Jane Doe</p>
                 <p class="teacher">Assistant Professor</p>
             </article>
 
-            <article class="review">
-                <h1>Jane Doe was a brilliant student; always stood out with her assignments.</h1>
+            <article class="bubble">
+                <h1 class="review">Jane Doe was a brilliant student; always stood out with her assignments.</h1>
                 <p class="teacher">Jane Doe</p>
                 <p class="teacher">Assistant Professor</p>
             </article>
 
-            <article class="review">
-                <h1>Jane Doe was a brilliant student; always stood out with her assignments.</h1>
+            <article class="bubble">
+                <h1 class="review">Jane Doe was a brilliant student; always stood out with her assignments.</h1>
                 <p class="teacher">Jane Doe</p>
                 <p class="teacher">Assistant Professor</p>
             </article>
         </section>
 
-        <p class="center">©️ All Rights Reserved 2024</p>
+        <p id="copyright">©️ All Rights Reserved 2024</p>
     </footer>
 </body>
 </html>
