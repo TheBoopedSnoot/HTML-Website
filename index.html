@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML-Only Website</title>
+    <meta property="og:title" content="HTML-Only Website">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <section class="navbar">
+        <section id="navbar">
+            <img href="" alt="">
             <div id="name">Your Name</div>
             <nav id="nav">
                 <a href="">Home</a> /
@@ -22,40 +27,35 @@
             <h1 id="position">Frontend Developer</h1>
             <p id="description">html only with proper layout, no styling</p>
         </section>
-        <hr>
     </header>
 
     <main>
         <section class="column">
-            <h1>Projects</h1>
-            <p>HTML Only Protfolio</p>
-            <hr>
-            <p>Calculator</p>
-            <hr>
-            <p>Quiz App</p>
-            <hr>
-            <p>Countdown Timer</p>
-            <hr>
-            <p>Product Upcoming Page</p>
+            <h1 class="title">Projects</h1>
+            <p class="project">HTML Only Protfolio</p>
+            <p class="project">Calculator</p>
+            <p class="project">Quiz App</p>
+            <p class="project">Countdown Timer</p>
+            <p class="project">Product Upcoming Page</p>
         </section>
         
-        <section class="column">
+        <section class="column" id="middle">
             <section class="article">
-                <h1>Work Experience</h1>
+                <h1 class="title">Work Experience</h1>
                 <h2>roadmap.sh</h2>
                 <p>Solved all the frontend projects</p>
                 <p><a href="" target="_blank">Visit my Profile</a></p>
             </section>
-            <hr>
+            <div id="border"></div>
             <section class="article">
-                <h1>OpenSource Work</h1>
+                <h1 class="title">OpenSource Work</h1>
                 <p>Contributed to several opensource projects. Made my own projects with 200 GitHub Stars.</p>
                 <p><a href="" target="_blank">Visit my GitHub Profile</a></p>
             </section>
         </section>
             
             <section class="column">
-                <h1>Education</h1>
+                <h1 class="title">Education</h1>
                 <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon Organized 30 sessions.</p>
                 <p>Courses I took:</p>
                 <ul>
@@ -73,7 +73,6 @@
     </main>
 
     <footer>
-        <hr>
         <h1>Reviews from my Teachers</h1>
 
         <section class="reviews">
